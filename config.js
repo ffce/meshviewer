@@ -1,13 +1,13 @@
 define({
-  "dataPath": "http://map.gl.wupper.freifunk-rheinland.net/data/",
-  "siteName": "Freifunk gl.wupper",
+  "dataPath": "https://map.freifunk-celle.de/data/",
+  "siteName": "Freifunk Celle",
   "mapSigmaScale": 0.5,
   "showContact": true,
   "maxAge": 7,
   "nodeInfos": [
     { "name": "Statistik",
-      "href": "http://map.gl.wupper.freifunk-rheinland.net/data/nodes/{NODE_ID}.png",
-      "thumbnail": "http://map.gl.wupper.freifunk-rheinland.net/data/nodes/{NODE_ID}.png",
+      "href": "https://map.freifunk-celle.de/data/nodes/{NODE_ID}.png",
+      "thumbnail": "https://map.freifunk-celle.de/data/nodes/{NODE_ID}.png",
       "caption": "Knoten {NODE_ID}"
     }
   ],
@@ -24,20 +24,12 @@ define({
   ],
   "globalInfos": [
     { "name": "Wochenstatistik",
-      "href": "http://map.gl.wupper.freifunk-rheinland.net/data/nodes/globalGraph.png",
-      "thumbnail": "http://map.gl.wupper.freifunk-rheinland.net/data/nodes/globalGraph.png",
+      "href": "https://map.freifunk-celle.de/data/nodes/globalGraph.png",
+      "thumbnail": "https://map.freifunk-celle.de/data/nodes/globalGraph.png",
       "caption": "Bild mit Wochenstatistik"
     }
   ],
   "siteNames": [
-    { "site": "ffgl-bcd", "name": "Burscheid" },
-    { "site": "ffgl-bgl", "name": "Bergisch Gladbach" },
-    { "site": "ffgl-cgn", "name": "Rechtsrheinisch-Köln" },
-    { "site": "ffgl-kut", "name": "Kürten" },
-    { "site": "ffgl-lgn", "name": "Langenfeld" },
-    { "site": "ffgl-lln", "name": "Leichlingen" },
-    { "site": "ffgl-ode", "name": "Odenthal" },
-    { "site": "ffgl-ovr", "name": "Overath" },
-    { "site": "ffgl-rrh", "name": "Rösrath" }
+    { "site": "ffce", "name": "Celle" }
   ]
 })
